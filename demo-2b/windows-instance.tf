@@ -35,7 +35,7 @@ EOF
   connection {
     host     = coalesce(self.public_ip, self.private_ip)
     type     = "winrm"
-    timeout  = "10m"
+    timeout  = "5m"
     user     = var.INSTANCE_USERNAME
     password = var.INSTANCE_PASSWORD
   }

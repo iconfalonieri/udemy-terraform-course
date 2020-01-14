@@ -13,7 +13,7 @@ variable "WIN_AMIS" {
   default = {
     us-east-1 = "ami-30540427"
     us-west-2 = "ami-9f5efbff"
-    eu-west-1 = "ami-0fd746a1b57abfb81"
+    eu-west-1 = "ami-03e785f2620db42b7"
   }
 }
 
